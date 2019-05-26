@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from projects.models import Projects
+from projects.models import Project
 
 # Create your views here.
 def project_index(request):
-    projects = Projects.objects.all()
+    projects = Project.objects.all()
     context = {
         'projects': projects
 
@@ -13,7 +13,7 @@ def project_index(request):
 
 
 def project_detail(request, pk):
-    project = Projects.objects.all()
+    project = Project.objects.all()
     context = {
         'project': project
     }
