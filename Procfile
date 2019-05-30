@@ -1,1 +1,1 @@
-web: gunicorn personal_portfolioherokuapp.wsgi --log-file -
+web: gunicorn personal_portfolio.wsgi --log-file -
