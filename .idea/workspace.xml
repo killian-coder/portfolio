@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f846c61-8121-42b3-b8d8-51cb35850044" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/templates/project_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/project_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/pbr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url-0.4.2.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dj_database_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,23 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personal_portfolio/settings.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-              <folding>
-                <element signature="e#319#328#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/templates/project_index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -172,6 +155,8 @@
         <option value="$PROJECT_DIR$/projects/templates/project_index.html" />
         <option value="$PROJECT_DIR$/personal_portfolio/templates/base.html" />
         <option value="$PROJECT_DIR$/personal_portfolio/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
       </list>
     </option>
   </component>
@@ -457,6 +442,20 @@
             <element signature="e#326#332#0" expanded="true" />
             <element signature="e#489#495#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
