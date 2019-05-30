@@ -1,22 +1,33 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block page_content %}
+  {% block portfolio_section %}
 
-<h1>Projects</h1>
-<div clas="row">
-    {% for project in projects %}
-    <div class="col-md-4">
-        <div class="card mb-2">
-            <img class="card-img-top" src="{% static project.image %}"/>
-                <div class="card-body">
-                    <h5 class="card-title">{{ project.title }}</h5>
-                    <p class="card-text">{{ project.descriptions }}</p>
-                    <a href="{% url 'project_detail' project.pk %}" class="btn btn-primary">Read more</a>
-
-                </div>
-
+<<section class="content-section" id="portfolio">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">Recent Projects</h2>
+      </div>
+      <div class="row no-gutters">
+          {% for project in projects %}
+        <div class="col-lg-6">
+          <a class="portfolio-item"  href="{% url 'project_detail' project.pk %}">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>{{ project.title }}</h2>
+                <p class="mb-0">{{ project.description }}</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="{% static 'img/portfolio-1.jpg' %}" alt="">
+          </a>
         </div>
+{% endfor %}
+      </div>
+
     </div>
-    {% endfor %}
+  </section>
+
 </div>
 {% endblock %}
+
+<!-- Portfolio -->
